@@ -1,4 +1,4 @@
-import Calculator from "@/components/Calculator";
+import IndustrySearch from "@/components/IndustrySearch";
 
 const Index = () => {
   return (
@@ -6,13 +6,13 @@ const Index = () => {
       <div className="text-center space-y-8">
         <div>
           <h1 className="text-4xl font-bold text-slate-800 mb-2">
-            Калькулятор
+            Поиск статистики по индустриям
           </h1>
           <p className="text-lg text-slate-600">
-            Простой и удобный калькулятор
+            Найдите актуальную статистику по любой отрасли
           </p>
         </div>
-        <Calculator />
+        <IndustrySearch />
       </div>
     </div>
   );
