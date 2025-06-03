@@ -1,11 +1,18 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Calculator from "@/components/Calculator";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 p-4">
+      <div className="text-center space-y-8">
+        <div>
+          <h1 className="text-4xl font-bold text-slate-800 mb-2">
+            Калькулятор
+          </h1>
+          <p className="text-lg text-slate-600">
+            Простой и удобный калькулятор
+          </p>
+        </div>
+        <Calculator />
       </div>
     </div>
   );
